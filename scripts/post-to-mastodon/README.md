@@ -4,7 +4,7 @@
 
 This action will post a going-live message to a specified Mastodon instance. Everything can be set through arguments in the sub-actions, so no code-editing is required.
 
-The default trigger in this is set to a `Twtich > Channel > Stream Inline` trigger but you could change that almost any other trigger. Please keep in mind that each Trigger has its own set of arguments that will be passed down to the sub-actions.
+The default trigger in this is set to a `Twtich > Channel > Stream Online` trigger but you could change that almost any other trigger. Please keep in mind that each Trigger has its own set of arguments that will be passed down to the sub-actions.
 
 ## Installation instructions
 
@@ -18,13 +18,14 @@ U0JBRR+LCAAAAAAABADNWmmP4kqW/d5S/wd3tUo9Iz1neQW7NDNSmgQDCWSxgzvfh3BEeElsTHmBNK33
 
 ![image](https://github.com/user-attachments/assets/cb8caa35-0649-44bf-b5e2-7f3cd0807fbd)
 ![image](https://github.com/user-attachments/assets/b1001648-50ca-4458-98e6-872c16e55fb1)
+
 > [!NOTE]
-> If you already have an app, make sure it has `write` access.
-4. Copy the access token for your application
-![image](https://github.com/user-attachments/assets/873aff09-2c57-42ec-9eaf-2c6bafa303b7)
-5. in the sub-actions for this action you will need to edit the following:
-   - set the value of the `mastodonBaseUrl` to the base url of the mastodon instance you wish to post to. eg `https://mstdn.social`
-   - set the value of the `mastodonAccessToken` to the access token you copied from step 3
+> If you already have an app, make sure it has `write` access. 4. Copy the access token for your application
+> ![image](https://github.com/user-attachments/assets/873aff09-2c57-42ec-9eaf-2c6bafa303b7) 5. in the sub-actions for this action you will need to edit the following:
+
+- set the value of the `mastodonBaseUrl` to the base url of the mastodon instance you wish to post to. eg `https://mstdn.social`
+- set the value of the `mastodonAccessToken` to the access token you copied from step 3
+
 6. (Optional): edit the golive message by editing the `postMessage` arg.
-> [!NOTE]
-> You can add additional variables into the golive message by setting additional args above. Also note that all of the variables set by the Go Live trigger as well as the Broadcaster info will also be there. You can add any variable to your message through traditional `%varableNotation%`
+   > [!NOTE]
+   > You can add additional variables into the golive message by setting additional args above. Also note that all of the variables set by the Go Live trigger as well as the Broadcaster info will also be there. You can add any variable to your message through traditional `%varableNotation%`
