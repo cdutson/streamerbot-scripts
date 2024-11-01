@@ -27,7 +27,7 @@ U0JBRR+LCAAAAAAABADNWmdz21iW/T5V8x/Qnurq3dqGjEgCrt2tEikxSaLNBIZRf3gJIESkRiAJzfR/
 - set the value of the `mastodonAccessToken` to the access token you copied from step 3
 
 6. (Optional): edit the golive message by editing the `postMessage` arg.
-   > [!NOTE]
-   > You can add additional variables into the golive message by setting additional args above. Also note that all of the variables set by the Go Live trigger as well as the Broadcaster info will also be there. You can add any variable to your message through traditional `%varableNotation%`
-   >
-   > You can insert new lines by adding `||` into your post wherever you'd like to insert a newline.
+> [!NOTE]
+> You can add additional variables into the golive message by setting additional args above. Also note that all of the variables set by the Go Live trigger as well as the Broadcaster info will also be there. You can add any variable to your message through traditional `%varableNotation%`
+>
+> You can insert new lines by adding `||` into your post wherever you'd like to insert a newline.
