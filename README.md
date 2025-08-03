@@ -5,6 +5,7 @@ A collection of Streamer.bot actions that you can use to enhance your Streamer.b
 ## Available scripts
 
 - [Post a message to Mastodon](scripts/post-to-mastodon)
+- [Raid reaction - add raider to stream title](scripts/raid-reactions/raider-title-inject)
 
 ## Support me (if you want)
 
